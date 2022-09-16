@@ -1,0 +1,78 @@
+.tos {
+    background-color: rgb(18, 18, 18);
+    padding: 0.5vw;
+    border-radius: 1vw;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0vw 0.3vw;
+    border: rgb(0, 255, 0) solid 0.2vw;
+}
+
+.navbar__links {
+    color: rgb(255, 255, 255);
+}
+
+#collectorsWarn {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 1vw;
+    padding: 1vw;
+    background-color: rgba(0, 0, 0, 0.89);
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 1.5vw;
+    border: rgb(54, 194, 11) 5px solid;
+}
+
+#collWarn {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.bTag {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#holders {
+    font-size: 2vw;
+    color: red;
+}
+
+@media screen and (max-width: 1201px) {}
+
+@media screen and (max-width: 993px) {
+    #holders {
+        font-size: 6vw;
+        color: red;
+    }
+
+    #collWarn {
+        font-size: 4vw;
+    }
+
+    #collectorsWarn {
+        width: 95%;
+        margin-left: 2.5%;
+    }
+}
+
+@media screen and (max-width: 769px) {}
+
+@media screen and (max-width: 481px) {
+    #holders {
+        font-size: 6vw;
+        color: red;
+    }
+
+    #collWarn {
+        font-size: 5vw;
+        text-align: center;
+    }
+
+    #collectorsWarn {
+        width: 100%;
+        margin-left: 0%;
+    }
+}

@@ -1,0 +1,472 @@
+
+.mint__info__about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 3%;
+  margin: 25% 10% 2% 10%;
+  width: 80%;
+  -webkit-user-select: none;        
+  -moz-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none;
+  /* border: blue 5px solid; */
+  scroll-snap-align: center;
+}
+
+.mint__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  margin: 0;
+  /* margin-top: 8%; */
+  padding-top: 10%;
+}
+/* THE TEAM */
+
+.theTeam {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+  width: 80%;
+  left: 10%;
+  padding: 0%;
+  /* border: yellow 3px solid; */
+}
+
+.Gill {
+  position: relative;
+  width: 50%;
+  border: red solid 0.4vw;
+  border-radius: 50%;
+  /* border: red 3px solid; */
+}
+
+/* FOOTER */
+
+#footer__button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  /* border: chartreuse 5px solid; */
+  /* background: linear-gradient(to bottom, #00ff62 55%, #9632a8 15%); */
+  background: linear-gradient(#00ff62, #9632a8 );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  /* border: red 5px solid; */
+  font-size: 4.5vw;
+  -webkit-user-select: none;        
+  -moz-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none;
+}
+
+.divider{
+  background-color: #00ff62;
+  width: 80%;
+  margin-left: 10%;
+  height: 0.5vw;
+  box-shadow: #00ff62 0vw 0vw 2.5vw 0.5vw;
+  border-radius: 1vw;
+}
+
+.spacer {
+  width: 100%;
+  height: 7vw;
+}
+
+.bonzoLogo{
+  width: 16vw;
+  height: 14vw;
+  background-color: orange;
+  padding: 1vw 0.5vw;
+  border: rgba(0, 0, 0, 0.435) solid 0.4vw;
+  box-shadow: orange 0vw 0vw 2vw 0.3vw;
+
+  border-radius: 50%;
+}
+
+.us__intro {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  padding: 2%;
+  border: red solid 0.4vw;
+  border-radius: 1vw;
+  text-align: center;
+  margin: 10% 10% 10% 10%;
+  
+  text-decoration: none;
+  box-shadow: 0px 0rem 4rem 0.01rem #f500008d, 0px 0rem 4rem 0.01rem #0000008d inset;
+}
+
+.us__intro:hover{
+  transition:ease-in-out 0.3s;
+  box-shadow: 0px 0rem 4rem 0.01rem #f500008d,0px 0rem 4rem 0.01rem #f500008d inset;
+  text-shadow: rgb(11, 148, 29) 0.1vw 0.1vw 0.5vw;
+  color: rgb(11, 148, 29);
+}
+
+.us__intro_title {
+  margin: 5%;
+}
+
+.us_images {
+  display: flex;
+  margin-top: 1vw;
+  justify-content: space-evenly;
+}
+
+#introduction {
+  margin: 3%;
+  padding: 3% 5% 3% 5%;
+  color: #fff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  /* border: red 5px solid; */
+  -webkit-user-select: none;        
+  -moz-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none;
+  border-radius: 50px;
+  text-align: center;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 70%;
+  font-style: none;
+  font-size: 1.5vw;
+}
+
+#info__P {
+  margin: 0% 5%;
+  width: 90%;
+}
+.us_intro_box {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 2%;
+  border-radius: 3vw;
+  background-color: rgb(15, 15, 15);
+}
+
+#contract {
+  position: relative;
+  color: white;
+  display: flex;
+  margin-top: 2vw;
+  width: 30%;
+  left: 35%;
+  justify-content: center;
+  font-size: 1.2rem;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+}
+
+#cover__page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 3%;
+  margin: 8% 10% 0% 10%;
+  width: 80%;
+
+  border: blue 5px solid;
+  scroll-snap-align: center;
+}
+
+#brief {
+  margin: 3%;
+  padding: 3% 3% 5% 5%;
+  color: #fff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border: red 5px solid;
+  background-color: rgba(65, 59, 59, 0.2);
+  border-radius: 50px;
+  text-align: center;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 70%;
+  font-style: none;
+  font-size: 1.1vw;
+}
+
+#scrollDown__about {
+  position: absolute;
+  /* border: red 10px solid; */
+  width: 18%;
+  bottom: 38%;
+  left: 5%;
+  /* border: red 3px solid; */
+  object-position: 0px 0px;
+}
+
+#toxicWaste__about {
+  /* border: red 5px solid; */
+  position: absolute;
+  width: 25%;
+  top: 38%;
+  left: 78%;
+  object-position: 0px 0%;
+}
+
+#fun {
+  font-size: 5vw;
+  background: linear-gradient(#00ff62, #9632a8 );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+/* #fun_fun {
+  font-size: 4vw;
+  border-radius: 3vw;
+  padding: 1vw;
+  color: #00c321;
+} */
+
+@media screen and (max-width: 1201px) {
+  #info__P {
+    font-size: 2vw;
+  }
+  #introduction {
+    font-size: 2vw;
+  }
+  #intro__paragraph {
+    font-size: 2vw;
+    -webkit-user-select: none;        
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+  }
+  h1 {
+    font-size: 5vw;
+  }
+  #Carnie__name {
+    top: 22%;
+    z-index: 99;
+    right: -17%;
+    font-size: 6.5vw;
+    -webkit-user-select: none;        
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+  }
+  /* #fun_fun {
+    font-size: 5vw;
+  } */
+  .us__intro {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 993px) {
+  #Carnie__image {
+    width: 22vw;
+    height: 22vw;
+    left: 17vw;
+    top: 7vw;
+  }
+  #Carnie__name {
+    top: 22%;
+    z-index: 99;
+    right: -23.5%;
+    font-size: 6.5vw;
+  }
+
+  #Carnie__border {
+    width: 45vw;
+    height: 40vw;
+    left: 7%;
+    top: 3%;
+  }
+  .mint__container {
+    width: 100%;
+    height: 38vw;
+  }
+  .us__intro {
+    font-size: 1rem;
+    margin: 5% 30% 10% 30%;
+  }
+  .us_intro_box {
+    width: 40%;
+  }
+  #intro__paragraph {
+    right: 0%
+}
+}
+
+@media screen and (max-width: 769px) {
+
+  #contract {
+    font-size: 1rem;
+  }
+  #info__P {
+    font-size: 2.5vw;
+  }
+  #introduction {
+    font-size: 2.5vw;
+  }
+  #intro__paragraph {
+    font-size: 2.5vw;
+  }
+  #scrollDown__about {
+    width: 25%;
+    left: 2%;
+  }
+  #toxicWaste__about {
+    width: 30%;
+    top: 38%;
+    left: 74%;
+  }
+  h1 {
+    font-size: 6vw;
+  }
+  #Carnie__name {
+    top: 22%;
+    z-index: 99;
+    right: -23.5%;
+    font-size: 6.5vw;
+  }
+  .mint__info__about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 3%;
+    margin: 20% 0% 2% 0%;
+    width: 100%;
+
+    /* border: blue 5px solid; */
+    scroll-snap-align: center;
+  }
+  #Carnie__image {
+    width: 27vw;
+    height: 27vw;
+    left: 12.5vw;
+    top: 8vw;
+  }
+
+  #Carnie__border {
+    width: 55vw;
+    height: 50vw;
+    left: -1%;
+    top: 1%;
+  }
+  .mint__container {
+    width: 100%;
+    height: 50vw;
+  }
+  .characterSec {
+    background-size: 180%;
+    height: 220vw;
+  }
+  /* #fun_fun {
+    font-size: 5.5vw;
+  } */
+  #fun {
+    font-size: 6vw;
+  }
+  .us__intro {
+    font-size: 1rem;
+    margin: 5% 20% 10% 20%;
+  }
+  .us__intro_title {
+    font-size: 5vw;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  #contract {
+    font-size: 0.8rem;
+  }
+  #info__P {
+    font-size: 3.5vw;
+  }
+  #introduction {
+    font-size: 3.5vw;
+  }
+  #intro__paragraph {
+    padding: 15px;
+    display: flex;
+    position: absolute;
+    color: #fff;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    background-color: rgba(0, 0, 0, 0.52);
+    border-radius: 15px;
+    top: 26%;
+    right: 2%;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    font-size: 3.5vw;
+  }
+  
+  h1 {
+    font-size: 8vw;
+  }
+  #Carnie__name {
+    top: 17%;
+    z-index: 99;
+    right: -23.5%;
+    font-size: 6.5vw;
+  }
+  #scrollDown__about {
+    width: 28%;
+    bottom: 44%;
+    left: -1%;
+  }
+  #toxicWaste__about {
+    width: 38%;
+    top: 55%;
+    left: 70%;
+  }
+  #Carnie__image {
+    width: 27vw;
+    height: 27vw;
+    left: 12.5vw;
+    top: 8vw;
+  }
+
+  #Carnie__border {
+    width: 55vw;
+    height: 50vw;
+    left: -1%;
+    top: 1%;
+  }
+  .mint__container {
+    width: 100%;
+    height: 50vw;
+  }
+  .characterSec {
+    background-size: 115%;
+    width: 94%;
+    height: 220vw;
+  }
+  
+  #fun {
+    font-size: 7vw;
+  }
+  .us__intro {
+    font-size: 0.8rem;
+    margin: 5% 15% 10% 15%;
+  }
+}

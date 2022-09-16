@@ -1,0 +1,91 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+    height: 70vh;
+}
+
+.innerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: 60%;
+    height: max-content;
+    background-color: rgb(41, 40, 40);
+    border: greenyellow solid 0.5rem;
+}
+#message {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(246, 0, 0) 0.1vw 0.05vw;
+    margin: 30px;
+    /* background-color: red; */
+    padding: 5px;
+    /* box-shadow: red 0vw 0vw 0.3vw 0.3vw; */
+    width:50%;
+    border-radius: 15px;
+}
+
+.label {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0.3rem;
+    font-size: 1.5rem;
+}
+.tosInner{
+    margin-right: 5%;
+    margin-left: 5%;
+    color: greenyellow;
+    font-size: 1.8vw;
+    transition: 2s;
+}
+.tos:hover {
+    color: greenyellow;
+}
+
+input[type=checkbox] {
+    transform: scale(2);
+    margin: 10px;
+}
+
+.submit{
+    width: 10vh;
+    height: 50%;
+    font-size: larger;
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.submit:hover {
+    background-color: greenyellow;
+    box-shadow: 0vw 0vw 0.3vw 0.3vw greenyellow;
+    border: none;
+    font-size: x-large;
+}
+
+  @media screen and (max-width: 1201px) {
+   
+  }
+  @media screen and (max-width: 993px) {
+    .tosInner {
+        font-size: 3vw;
+      }
+  }
+  @media screen and (max-width: 769px) {
+    .tosInner {
+        font-size: 3vw;
+      }
+  }
+  @media screen and (max-width: 481px) {
+    .tosInner {
+        font-size: 5vw;
+      }
+
+      .label {
+        margin: 0rem;
+        font-size: 1.2rem;
+    }
+  }

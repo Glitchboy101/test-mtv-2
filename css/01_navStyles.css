@@ -1,0 +1,339 @@
+@font-face {
+  font-family: mrmonster;
+  src: url(../fonts/Flying-Slime-Reguler.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: mrmonster;
+}
+
+#mobileIcons {
+  width: 12vw;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1vw;
+}
+
+#bonzo {
+  width: 130px;
+  margin-right: 0px;
+  margin-left: 1vw;
+  /* border: red 3px solid; */
+  cursor: pointer;
+  transition: ease-in-out 0.5s;
+}
+
+/* #bonzo:hover {
+  animation: ;
+  animation: bonzo 0.5s forwards;
+  /* background-color: #00ff62; */
+  transition: ease-in-out 0.5s;
+
+} */
+
+@keyframes bonzo {
+  33% {
+    rotate: 1turn;
+  }
+}
+
+.navbar {
+  background: linear-gradient(
+    to bottom,
+    rgb(0, 0, 0),
+    rgb(0, 0, 0),
+    rgb(0, 0, 0),
+    rgb(0, 0, 0),
+    rgb(0, 0, 0),
+    rgb(0, 0, 0),
+    rgb(0, 0, 0),
+    rgb(0, 0, 0),
+    rgb(0, 0, 0),
+    rgb(0, 0, 0),
+    rgb(0, 0, 0),
+    transparent
+  );
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  position: sticky;
+  top: 0;
+  z-index: 99999999;
+}
+
+.navbar__container {
+  /* border: yellow 3px solid; */
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  z-index: 1;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0;
+  padding: 0;
+  /* border: red 3px solid; */
+}
+
+#navbar__logo {
+  background-color: #0dc087;
+  background-image: linear-gradient(to top, #9632a8 0.1%, #00ff62 80%);
+  background-size: 100%;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  transition: ease-in-out 0.5s;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 5.2rem;
+  /* border: red 3px solid; */
+}
+
+.fa-gem {
+  margin-right: 0.5rem;
+}
+
+.navbar__menu {
+  /* border: blue 3px solid; */
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+}
+
+.navbar__item {
+  height: 80px;
+}
+
+.navbar__links {
+  /* border: purple 1px solid; */
+  color: rgb(255, 255, 255);
+  display: flex;
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none!important;
+  padding: 0 1rem;
+  height: 100%;
+}
+
+.navbar__exLink {
+  display: flex;
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5vw;
+  /* border: black 3px solid; */
+  overflow: hidden;
+  background-size: 100%;
+  margin: 0.3vw;
+  width: 60px;
+  /* box-shadow: rgb(0, 255, 0) 0vw 0vw 0.3vw 0.1vw; */
+}
+
+.navbar__exLink:hover {
+  background-color: #eba101;
+  box-shadow: #fcf700 0rem 0rem 0.5vw 0.05vw;
+  z-index: 99999;
+  transition: ease-in-out 0.2s;
+
+}
+
+.navbar__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1vw;
+  width: 30%;
+}
+
+.button {
+  display: flex;
+  font-size: 1.9rem;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none!important;
+  padding: 10px 15px;
+  height: 50px;
+  width: 6rem;
+  border: none;
+  outline: none;
+  border-radius: 1vw;
+  background: #05fd2f;
+  color: rgb(0, 0, 0);
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background: #eba101;
+  box-shadow: 0px 0px 1.5vw 0.1vw rgb(255, 196, 0);
+  transition: all 0.3s ease;
+  
+}
+
+.navbar__links:hover {
+  color: #f77052;
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 960px) {
+  #bonzo {
+    width: 100px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+  #mobileIcons {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70vw;
+    padding-bottom: 3vw;
+  }
+
+  .navbar__container {
+    display: flex;
+    justify-content: flex-start;
+    height: 60px;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0;
+  }
+
+  .navbar__exLink {
+    position: relative;
+    display: flex;
+    z-index: 1;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+    margin: 0.3vw;
+    width: 4vw;
+  }
+
+  .navbar__menu {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    top: -1000px;
+    opacity: 0;
+    transition: all 0.5s ease;
+    z-index: -1;
+    background: #1e06a7;
+  }
+
+  .navbar__menu.active {
+    background: 131313;
+    top: 93%;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 99;
+    height: 82vh;
+    font-size-adjust: 4rem;
+  }
+
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 15px;
+    height: 50px;
+    width: 6rem;
+    border: none;
+    outline: none;
+    border-radius: 1vw;
+    background: #05fd2f;
+    color: rgb(0, 0, 0);
+  }
+
+  #navbar__logo {
+    padding: 0px;
+    font-size: 7vw;
+    left: 0;
+  }
+
+  .navbar__toggle .bar {
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background: #fff;
+  }
+
+  .navbar__toggle .bar:hover {
+    background: chartreuse;
+  }
+
+  .navbar__item {
+    width: 100%;
+    height: 30px;
+  }
+
+  .navbar__links {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+  }
+
+  #mobile-menu {
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    transform: translate(5%, 20%);
+  }
+
+  .navbar__btn {
+    padding-bottom: 2rem;
+    margin: 8% 35% 0 35%;
+    height: 40px;
+  }
+
+  .navbar__toggle .bar {
+    display: block;
+    cursor: pointer;
+  }
+
+  #mobile-menu.is-active .bar:nth-child(2) {
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #mobile-menu.is-active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45);
+    transition: all 0.3s ease-in-out;
+  }
+
+  #mobile-menu.is-active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45);
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .navbar__exLink {
+    width: 30px;
+  }
+}
+
+@media screen and (max-width: 1425px) {
+  #navbar__logo {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #navbar__logo {
+    font-size: 2.2rem;
+  }
+}

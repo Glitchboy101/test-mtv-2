@@ -1,0 +1,481 @@
+/* ````````````````````````````````````````````````````````````````````````````````_____main CSS_____``````````````````````````````````````````````````````````````````````````````````` */
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(28, 229, 2);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(245, 168, 2);
+
+}
+
+h2 {
+  font-weight: normal;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+strong {
+  font-weight: normal;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(0, 0, 0);
+}
+
+#introduction {
+  margin: 3%;
+  padding: 3% 3% 5% 5%;
+  color: #fff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 50px;
+  text-align: center;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 70%;
+  font-style: none;
+  font-size: 1.5vw;
+}
+
+p {
+  font-size: 1.9vw;
+}
+
+.characterSec {
+  scroll-snap-type: y mandatory;
+  position: relative;
+  padding-top: 15%;
+  margin-top: 12%;
+  border-radius: 50px;
+  background-image: url(../images/pipes2.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  left: 3%;
+  width: 94%;
+  height: 170vw;
+  scroll-snap-type: y mandatory;
+}
+
+.badge {
+  width: 18vw;
+  padding: 1vw;
+  background-color: #02c002;
+  border-radius: 25px;
+  border: grey solid 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+#slime_line {
+  position: absolute;
+  width: 100%;
+  left: 0%;
+  top: 90%;
+}
+
+.mint__container {
+  margin-top: 0;
+  width: 100%;
+  height: 25%;
+  scroll-snap-align: center;
+}
+
+#Carnie__image {
+  border: black 0.5em solid;
+  border-radius: 250px;
+  max-width: 100%;
+  width: 16vw;
+  height: 16vw;
+  position: absolute;
+  left: 16vw;
+  top: 9.5vw;
+}
+
+#Carnie__border {
+  width: 35vw;
+  height: 30vw;
+  position: absolute;
+  left: 8%;
+  top: 12%;
+}
+
+#intro__paragraph {
+  padding: 30px;
+  display: flex;
+  position: absolute;
+  color: #fff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-radius: 50px;
+  top: 35%;
+  right: 6%;
+  text-align: center;
+  width: 55%;
+  height: 40%;
+  font-size: 1.5vw;
+}
+
+
+#Carnie__name {
+  background-image: linear-gradient(to bottom, #00ff62 0.01%, #9632a8 15%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  position: relative;
+  top: 22%;
+  z-index: 99;
+  right: -15.5%;
+  font-size: 4.5vw;
+}
+
+.audio {
+  position: absolute;
+}
+
+/* ````````````````````````````````````````````````````````````````````````````````_____information_____``````````````````````````````````````````````````````````````````````````````````` */
+
+.mint__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 3%;
+  margin: 8% 10% 2% 10%;
+  width: 80%;
+  scroll-snap-align: center;
+}
+
+#info__P {
+  margin: 3%;
+  padding: 3% 3% 5% 5%;
+  color: #fff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 50px;
+  text-align: center;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 70%;
+  font-style: none;
+  font-size: 1.5vw;
+  pointer-events: none;
+}
+
+#tosStatement {
+  margin: 3%;
+  padding: 3% 3% 3% 3%;
+  color: #fff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 50px;
+  text-align: center;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 70%;
+  font-style: none;
+  font-size: 1.5vw;
+  pointer-events: none;
+}
+
+#rideTheWheel {
+  padding: 3%;
+  color: #fff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 50px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 90%;
+  font-style: none;
+  pointer-events: none;
+}
+
+#rideTheWheel:nth-child(1) {
+  padding: 3% 3% 0% 3%;
+}
+
+#rideTheWheel:nth-child(2) {
+  padding: 0% 3% 3% 3%;
+}
+
+/* ````````````````````````````````````````````````````````````````````````````````_____Toxic Drips_____``````````````````````````````````````````````````````````````````````````````````` */
+
+.animation__Box {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin-top: 2.2vw;
+  margin-left: 5%;
+  padding-bottom: 6vw;
+
+}
+
+#error__vid {
+  position: relative;
+  width: 100%;
+  left: 0;
+  top: 0;
+  object-fit: contain;
+  object-position: center;
+  z-index: -100;
+}
+
+.drips img {
+  width: 5%;
+  z-index: 9999999;
+  animation: drip 7s linear infinite;
+}
+
+.drips {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  top: -7vw;
+}
+
+.drips img:nth-child(1) {
+  animation-delay: 2s;
+  width: 12%;
+}
+
+.drips img:nth-child(2) {
+  width: 8%;
+  animation-delay: 1s;
+}
+
+.drips img:nth-child(3) {
+  animation-delay: 3s;
+  width: 10%;
+}
+
+.drips img:nth-child(4) {
+  animation-delay: 4.5s;
+  width: 11%;
+}
+
+.drips img:nth-child(5) {
+  animation-delay: 3s;
+  width: 8%;
+}
+
+.drips img:nth-child(6) {
+  animation-delay: 6s;
+  width: 6%;
+}
+
+.drips img:nth-child(7) {
+  animation-delay: 7s;
+  width: 8%;
+}
+
+/* THE TEAM */
+
+.theTeam {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+  width: 80%;
+  left: 10%;
+  padding: 0%;
+}
+
+.art {
+  position: relative;
+  width: 80%;
+  margin: 0 10rem 0 10rem;
+  border-radius: 3vw;
+  box-shadow: 0px 0.5vw 1vw 1.5vw #0000008d;
+  margin-bottom: 1rem;
+}
+
+.Dev {
+  position: relative;
+  width: 80%;
+  border-radius: 3vw;
+  box-shadow: 0px 0.5vw 1vw 1.5vw #0000008d;
+  margin-bottom: 1rem;
+}
+
+.us__intro {
+  color: #fff;
+  padding: 20%;
+
+}
+
+.us__intro_title {
+  margin: 5%;
+}
+
+.us_images {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.us_intro_box {
+  margin: 0 20%;
+  box-shadow: 0px 0rem 4vw 0.01vw #ffffff45;
+}
+
+#cover__page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 1%;
+  margin: 5% 39% 2% 39%;
+  width: 22%;
+  border-radius: 3vw;
+  border: red 0.5vw solid;
+  background-color: rgb(22, 22, 22);
+  scroll-snap-align: center;
+}
+
+#brief {
+  margin: 3%;
+  padding: 2vw;
+  color: #fff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: rgba(65, 59, 59, 0.185);
+  border-radius: 50px;
+  text-align: center;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 80%;
+  font-style: none;
+}
+
+#scrollDown__about {
+  position: absolute;
+  width: 23%;
+  bottom: 38%;
+  left: -2%;
+  object-position: 0px 0px;
+}
+
+#toxicWaste__about {
+  position: absolute;
+  width: 25%;
+  top: 43%;
+  left: 78%;
+  object-position: 0px 0%;
+}
+
+h1 {
+  text-align: center;
+  color: #00e131;
+  font-size: 3vw;
+}
+
+@media screen and (max-width: 1201px) {
+  .animation__Box {
+    margin-top: 1.8vw;
+  }
+
+  #introduction {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 993px) {
+  .animation__Box {
+    margin-top: 1.6vw;
+  }
+
+  h1 {
+    font-size: 4vw;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .animation__Box {
+    margin-top: 1.2vw;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+
+  h1 {
+    font-size: 5vw;
+  }
+
+  #introduction {
+    font-size: 2.5vw;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .badge {
+    width: 30vw;
+  }
+
+  .animation__Box {
+    margin-top: 0vw;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  h1 {
+    font-size: 7vw;
+  }
+
+  #Carnie__image {
+    border: black 0.4em solid;
+  }
+
+  #tosStatement {
+    width: 100%;
+    font-size: 3vw;
+  }
+
+  #introduction {
+    font-size: 3.5vw;
+  }
+}

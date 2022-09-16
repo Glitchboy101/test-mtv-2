@@ -1,0 +1,76 @@
+#artist {
+  position: relative;
+  width: 25vw;
+  border-radius: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  padding: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+}
+
+#paragraph {
+  margin-left: 5%;
+  padding-top: 2%;
+  width: 100%;
+}
+
+#image {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 2vw;
+}
+
+div {
+  color: aliceblue;
+}
+
+#artistTitle {
+  padding: 2rem;
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+
+@media screen and (max-width: 960px) {
+  p {
+    font-size: 2.2vw;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  p {
+    font-size: 3vw;
+  }
+  .container {
+    flex-direction: column;
+  }
+  #paragraph {
+    margin-left: 0;
+  }
+
+  #artist {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  p {
+    font-size: 4vw;
+  }
+  #paragraph {
+    margin-left: 0;
+  }
+  #artist {
+    width: 80%;
+  }
+  
+}
+

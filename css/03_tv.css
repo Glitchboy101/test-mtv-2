@@ -1,0 +1,91 @@
+.content {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content:first-of-type{
+  margin-top: 0.5%;
+
+}
+
+.contentInnerText {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #f1f1f1;
+    text-align: center;
+    max-width: 70%;
+    width: auto;
+    height: auto;
+    margin: 3vw;
+  }
+
+  #statement {
+    width: auto;
+    font-size: 1.2vw;
+    font-weight: 100;  
+    font-family:"Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    pointer-events: none;
+  }
+
+  #tv {
+    border-radius: 1.5rem;
+    width: 100%;
+    height: 35vw;
+    box-shadow: whitesmoke 0rem 0rem 2vw 0.5vw;
+    /* box-shadow: whitesmoke 0rem 0rem 0.5vw 1.5vw; */
+    animation: tv 23s normal infinite;
+    transition: ease-in-out;
+    border: solid black 0.5vw;
+  }
+  
+  @keyframes tv {
+    4.5%{
+      box-shadow: whitesmoke 0rem 0rem 0.5vw 0.5vw;
+    }
+    9%{
+      box-shadow: rgb(255, 253, 253) 0rem 0rem 1vw 0.1vw;
+    }
+    13.5%{
+      box-shadow: rgb(255, 253, 253) 0rem 0rem 3vw 0.3vw;
+    }
+    18%{
+      box-shadow: rgb(255, 255, 255) 0rem 0rem 5vw 1vw;
+    }
+    22.5%{
+      box-shadow: rgb(255, 255, 255) 0rem 0rem 3vw 2vw;
+    }
+    27%{
+      box-shadow: rgb(255, 255, 255) 0rem 0rem 2vw 0.5vw;
+    }
+  }
+
+#tvTitle{
+    position: absolute;
+    color: #00e131;
+    font-size: 15vw;
+    text-shadow:8px 8px 8px black;
+    pointer-events: none;
+  }
+
+  @media screen and (max-width: 769px) {
+      #statement {
+          font-size: 0.7rem;
+          font-weight: 900;
+      }
+  }
+
+  @media screen and (max-width: 481px) {
+    #tv {
+      width: 90%;
+      height: 45vw;
+    }    
+
+    #tvTitle{
+      font-size: 17vw;
+    }
+  }
+
+ 

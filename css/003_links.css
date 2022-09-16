@@ -1,0 +1,253 @@
+
+#contract {
+    color: white;
+    display: flex;
+    margin-top: 2vw;
+    justify-content: center;
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+  }
+  
+.container { 
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    transition: 0.5s;
+    width: 50%;
+    background-color: rgb(15, 15, 15);
+    border-radius: 2rem;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+    /* border: red solid 3px; */
+    box-shadow: 0px 0px 2vw 0.5rem #ffb700 ;
+}
+.container:hover {
+    box-shadow: 0px 0px 4vw 0.5rem #15f600 ;
+    transition: 0.3s;
+} 
+
+.LinksPageButton {
+    background-image: url(/images/Opensea.png);
+    width: 4rem;
+    height: 4rem;
+    border-radius: 300vw;
+    background-color: #05fd2f;
+    background-size: contain;
+}
+
+.LinksPageButton:hover {
+    transition: all 0.3s ease;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 2vw 0.5rem #ffb700 ;
+}
+
+.banner__Link {
+    
+    justify-content: center;
+    font-size: 5vw;
+    width: 90%;
+    height: 14vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 2vw;
+    background: #05fd2f;
+    color: rgb(0, 0, 0);
+    
+}
+
+.containerCol { 
+
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    /* align-content: center; */
+    align-items: center;
+
+    /* flex-wrap: wrap; */
+    width: 20vw;
+    height: 20vw;
+    margin: 2%;
+    background-color: rgb(15, 15, 15);
+    border-radius: 2rem;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+    /* border: red solid 3px; */
+    border-radius: 50vw;
+    box-shadow: 0px 0px 2vw 0.5rem #ffb700 ;
+    
+    
+}
+
+.row{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.bannerLinkDoubles {
+    position: relative;
+    width: 40% !important;
+    height: 40% !important; 
+    padding: 1rem 1rem;
+    margin: 1rem;
+    padding-top: 0;
+    margin-top: 0;
+    box-shadow: 0px 0px 200px 0.5rem #ffb700 ;
+    border-radius: 50vw;
+}
+#carnieTown{
+    background-image: url(/images/cover.jpg);
+    background-size: 100%;
+    
+}
+#one{
+    background-image: url(/images/volumeOneBanner.jpg);
+    background-size: 110%;
+    
+}
+#two{
+    background-image: url(/images/VolumeTwoBanner.jpg);
+    background-size: 100%;
+}
+#three{
+    background-image: url(/images/VolumeThreeBanner.jpg);
+    background-size: 100%;
+    height: 19vw;
+}
+
+
+#discord{
+    background-image: url(/images/Discord.png);
+    background-size: 100%;
+    background-color: #ffb700;
+    transition: 2s;
+}
+#discord:hover{
+    background-color: #5800cb;
+    box-shadow: 0px 0px 2vw 0.5rem #5800cb ;
+    transition: all 1s ease;
+}
+#twitter{
+    background-image: url(/images/Twitter.png);
+    background-size: 100%;
+    background-color: #ffb700;
+    transition: 2s;
+}
+#twitter:hover{
+    background-color: #00addd;
+    box-shadow: 0px 0px 2vw 0.5rem #00addd ;
+    transition: all 1s ease;
+}
+#instagram{
+    background-image: url(/images/Instagram.png);
+    background-size: 100%;
+    background-color: #ffb700;
+    transition: 2s;
+}
+#instagram:hover{
+    background-color: coral;
+    box-shadow: 0px 0px 2vw 0.5rem coral;  
+    transition: all 1s ease;
+}
+
+p {
+    text-align: center;
+    padding: 2%;
+    -webkit-user-select: none;        
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+}
+
+h1 {
+    margin: 1%;
+    -webkit-user-select: none;        
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+}
+
+.pDoubles {
+    position: relative;
+    text-align: center;
+    padding: 5%;
+    font-size: 1.5rem;
+    
+}
+
+.h1Doubles {
+    position: relative;
+    margin: 5%;
+    background-color: black;
+    border-radius: 4rem;
+    font-size: 3vw;
+    box-shadow: 0px 0px 1rem 1rem black;
+
+}
+
+#note {
+    color: #fff;
+    font-size: 2.5vw
+}
+
+@media screen and (max-width: 1201px) {
+
+}
+
+@media screen and (max-width: 993px) {
+
+}
+
+@media screen and (max-width: 769px) {
+
+    .container{
+        width: 90%;
+    }
+    .banner__Link{
+        height: 25vw;
+    }
+    #three{
+        height: 33vw;
+    }
+}
+
+@media screen and (max-width: 481px) {
+
+    .h1Doubles {
+        background-color: rgba(0, 0, 0, 0);
+        box-shadow: 0px 0px 0rem 0rem black;
+    }
+    p {
+        font-size: 4.5vw;
+    }
+    .bannerLinkDoubles {
+        top: 1vw;
+        margin: 0;
+    }
+    .h1Doubles {
+        font-size: 4vw;
+    }
+    .LinksPageButton {
+        width: 3rem;
+        height: 3rem;
+    }  
+    #note {
+        color: #fff;
+        padding: 2vw;
+        font-size: 4vw;
+    }
+}

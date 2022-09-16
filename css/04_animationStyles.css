@@ -1,0 +1,225 @@
+section {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  justify-content: center;
+}
+
+#video {
+  position: absolute;
+  width: 80vw;
+  height: 55vw;
+  left: 10%;
+  border-radius: 10vw;
+  /* box-shadow: 0px 0px 35px 45px #0000008d inset; */
+  /* border: rgb(255, 0, 0) solid 0.75rem; */
+  top:98px;
+  object-fit: contain;
+  object-position: top;
+  z-index: 100;
+}
+
+.animation {
+  
+  width: 64vw;
+  height: 30vw;
+  /* border: rgb(197, 16, 16) 20px solid; */
+  max-width: 75%;
+  margin: auto;
+  border-radius: 10vw;
+  /* border: rgb(0, 0, 0) 1vw solid; */
+  box-shadow: 0px 0px 3vw 4vw rgb(0, 0, 0), 0px 0px 30vw 4vw rgb(255, 197, 36);
+  
+  margin-top: 4vw;
+  /* border: blue 3px solid; */
+  z-index: 1;
+}
+
+/* .navbar__container:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to top, transparent, transparent);
+  z-index: 1;
+}
+
+.navbar__container:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  z-index: 1;
+} */
+
+#dirt {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  object-fit: contain;
+  top: 71%;
+  object-position: 0px 0px;
+  /* border: slateblue 10px solid; */
+}
+
+#grass {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-content: flex-end;
+  position: absolute;
+  object-fit: fill;
+  object-fit: scale-down;
+  z-index: 3;
+  object-position: 0px 165%;
+}
+
+#sky {
+  position: absolute;
+  object-fit: fill;
+  top: 0%;
+  width: 100%;
+  max-height: 65%;
+}
+
+#coaster {
+  position: absolute;
+  justify-content: right;
+  object-position: 0px 49%;
+  object-fit: scale-down;
+  /* border: blue 5px solid; */
+  width: 100%;
+  z-index: 4;
+  height: 100%;
+}
+
+#tent {
+  position: absolute;
+  padding-left: 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+  z-index: 3;
+  object-position: 0px 43%;
+}
+
+#bonzoBalloon {
+  position: absolute;
+  width: 60%;
+  object-fit: cover;
+  height: 100%;
+  object-fit: scale-down;
+  left: -40%;
+  top: 42%;
+  object-position: 50% 58%;
+  /* border: red 10px solid; */
+}
+
+#sun {
+  position: absolute;
+  width: 110%;
+  left: -23%;
+  top: 1%;
+  object-position: 25% 20%;
+  z-index: 1;
+  /* border: red 10px solid; */
+}
+
+#toxicWaste {
+  /* border: red 20px solid; */
+  position: absolute;
+  width: 25%;
+  top: 45%;
+  z-index: 4;
+  left: 45%;
+  object-position: 0px 0%;
+}
+
+#plane {
+  position: absolute;
+  width: 130%;
+  left: 70%;
+  top: 20%;
+  z-index: 2;
+  object-position: 0 0;
+  /* border: salmon 10px solid; */
+}
+
+#clouds {
+  position: absolute;
+  left: 18%;
+  top: 1%;
+  width: 100%;
+  object-position: 0px 0px;
+  z-index: 1;
+  /* border: salmon 10px solid; */
+}
+
+#elephant {
+  z-index: 2;
+  position: absolute;
+  width: 90%;
+  top: 5%;
+  left: 10%;
+  object-position: 0px 0px;
+  /* border: seagreen 10px solid; */
+}
+
+#scrollDown {
+  position: absolute;
+  /* border: red 10px solid; */
+  width: 23%;
+  top: 10%;
+  left: 45%;
+  /* border: red 3px solid; */
+  object-position: 0px 0px;
+}
+
+@media screen and (max-width: 1201px) {
+}
+
+@media screen and (max-width: 993px) {
+}
+
+@media screen and (max-width: 769px) {
+  #video {
+    top: 130px;
+  }
+
+  .animation {
+    margin-top: 7.7vw;
+  }
+}
+
+@media screen and (max-width: 481px) {
+
+  .
+  .characterSec {
+    height: 100%;
+    margin-top: 10%;
+    width: 100%;
+    left: 0%;
+  }
+
+  #video {
+    top: 120px;
+    width: 99vw;
+    left: 0%;
+  }
+
+  .animation {
+    margin-top: 7.7vw;
+    width: 85vw;
+    height: 40vw;
+    max-width: 100%;
+  }
+  
+
+  .mint__container {
+    height: 150px;
+    width: 100%;
+  }
+}
